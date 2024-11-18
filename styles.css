@@ -1,0 +1,113 @@
+/* Añadir fuente profesional */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif; /* Fuente moderna y elegante */
+    margin: 0;
+    padding: 0;
+    background: #00bcd4; /* Verde cian */
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: 'Playfair Display', serif; /* Fuente serif elegante para títulos */
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #ffffff;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.message-container {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 75%;
+    background: #e0f7fa; /* Fondo suave verde claro */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.message-container p {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    font-style: italic;
+    color: #00796b; /* Verde oscuro para el texto */
+    text-align: center;
+    line-height: 1.8;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.gallery img {
+    width: 150px; /* Ancho reducido */
+    height: auto; /* Altura proporcional */
+    margin: 10px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1); /* Efecto de zoom al pasar el cursor */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.videos {
+    margin-top: 30px;
+}
+
+video {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.gallery img, .videos video {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.message-container {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 80%;
+    background: #fff5f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.message-container p {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #d81b60;
+    text-align: center;
+    line-height: 1.5;
+}
+
+audio {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
